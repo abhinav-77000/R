@@ -104,7 +104,4 @@ custom_sd <- function(x, na.rm = FALSE, use) {
   return(.compute_sd(x))
 }
 
-m <- matrix(c(1,2,NA,4,5,6,7,8,9), nrow = 3,
-            dimnames = list(NULL, c("A","B","C")))
 
-custom_sd(m)
